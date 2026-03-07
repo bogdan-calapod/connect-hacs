@@ -1,0 +1,24 @@
+deploy_package:
+  name: Deploy Package
+  description: >
+    Trigger a PDQ Connect package deployment to one or more target devices or groups.
+  fields:
+    package_id:
+      name: Package ID
+      description: >
+        The PDQ Connect Package ID (e.g. pkg_1bced782734040a581d) or Package Version ID
+        (e.g. pkgver_1bced782734040a581d) to deploy.
+      required: true
+      example: "pkg_1bced782734040a581d"
+      selector:
+        text:
+    target_ids:
+      name: Target IDs
+      description: >
+        A list of Device IDs (dvc_...) and/or Group IDs (grp_...) to deploy the package to.
+      required: true
+      example:
+        - "grp_1bced782734040a581d"
+        - "dvc_1bced782734040a581d"
+      selector:
+        object:

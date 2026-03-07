@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PDQ Connect",
+        "description": "Enter your PDQ Connect API key. You can generate one in PDQ Connect under Settings → API Keys.",
+        "data": {
+          "api_key": "API Key",
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key. Please check your key and try again.",
+      "cannot_connect": "Could not connect to PDQ Connect. Check your network connection.",
+      "unknown": "An unexpected error occurred. Check the Home Assistant logs for details."
+    },
+    "abort": {
+      "already_configured": "PDQ Connect is already configured with this API key."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "PDQ Connect Options",
+        "data": {
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}
