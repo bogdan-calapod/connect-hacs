@@ -9,5 +9,6 @@
   "requirements": [
     "requests>=2.31.0"
   ],
+  "homeassistant": "2026.3.0",
   "version": "0.1.0"
 }

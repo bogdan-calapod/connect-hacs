@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="./assets/pdq-logo.svg" height="48" alt="PDQ logo">
+  <br>
+  <sub>Unofficial — not affiliated with or endorsed by PDQ.com</sub>
+</div>
+
 # PDQ Connect – Home Assistant Integration
 
 A custom Home Assistant integration for [PDQ Connect](https://www.pdq.com/pdq-connect/),
@@ -87,3 +93,5 @@ Plus one global entity:
 ## License
 
 MIT – see [LICENSE](LICENSE)
+
+<sub>Built with the assistance of AI (Claude by Anthropic).</sub>
